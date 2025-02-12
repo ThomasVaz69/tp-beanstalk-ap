@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.get('/', (req, res) => {
-    res.send('Bienvenue sur Elastic Beanstalk !');
+    res.send(''Mise à jour automatique via AWS CodePipeline ! 🎉'');
 });
 
 app.listen(port, () => {
